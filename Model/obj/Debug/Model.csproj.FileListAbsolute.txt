@@ -1,0 +1,8 @@
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\bin\Debug\Model.dll.config
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\bin\Debug\Model.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\bin\Debug\Model.pdb
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\bin\Debug\EntityFramework.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\bin\Debug\EntityFramework.xml
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\obj\Debug\Model.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\Model\obj\Debug\Model.pdb

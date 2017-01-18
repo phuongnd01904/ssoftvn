@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9059ad137e4349cc9e25107e6fcaa1a4" Name="Diagram1">
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BaoCaoQuyCa" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BH_DonBanHang" Width="1.5" PointX="0.75" PointY="73.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BH_DonBanHang_ChiTiet" Width="1.5" PointX="3" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BH_DonMuaHang" Width="1.5" PointX="3.75" PointY="65.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BH_DonMuaHang_ChiTiet" Width="1.5" PointX="6" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BH_MuaHang" Width="1.5" PointX="6.75" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.BH_MuaHang_ChiTiet" Width="1.5" PointX="9" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.CauHinhBangLuong" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.CauHinhHomThu" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.CHBangLuongTheoMucDoanhThu" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.CHGiamTruBangLuong" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.ChietKhauMacDinh_NhanVien" Width="1.5" PointX="14.25" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.CongDoan_DichVu" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.CongNoDauKi" Width="1.5" PointX="12" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Conversation" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DanhSachThi" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DanhSachThi_ChiTiet" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DieuChuyenKho" Width="1.5" PointX="0.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DieuChuyenKho_ChiTiet" Width="1.5" PointX="3" PointY="53" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DieuKienChuyenNhom" Width="1.5" PointX="13.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DinhLuongDichVu" Width="1.5" PointX="3" PointY="84.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DinhMucHangHoaXuatKhoChoDichVu" Width="1.5" PointX="4.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_ChucVu" Width="1.5" PointX="3.5" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_DacDiemKhachHang" Width="1.5" PointX="13.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_DoiTuong" Width="1.5" PointX="9.75" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_DonVi" Width="1.5" PointX="1.5" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_DonViTinh" Width="1.5" PointX="0.75" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_GiaBan" Width="1.5" PointX="15" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_GiaBan_ChiTiet" Width="1.5" PointX="17.25" PointY="59.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_HangHoa" Width="1.5" PointX="12" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_HinhThucThanhToan" Width="1.5" PointX="1.5" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_HinhThucVanChuyen" Width="1.5" PointX="1.5" PointY="69.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_Kho" Width="1.5" PointX="0.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_KhoanPhuCap" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_KhuVuc" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_KhuyenMai" Width="1.5" PointX="3.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_KhuyenMai_ChiTiet" Width="1.5" PointX="6" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LienHe" Width="1.5" PointX="1.5" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LoaiChungTu" Width="1.5" PointX="13.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LoaiGiaPhong" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LoaiNhapXuat" Width="1.5" PointX="15.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LoaiPhieuThanhToan" Width="1.5" PointX="15.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LoaiPhong" Width="1.5" PointX="15.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LoHang" Width="1.5" PointX="14.25" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LopHoc" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_LyDoHuyLichHen" Width="1.5" PointX="16.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_MaVach" Width="1.5" PointX="14.25" PointY="72" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_MayChamCong" Width="1.5" PointX="3.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_NganHang" Width="1.5" PointX="5.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_NhanVien" Width="1.5" PointX="1.5" PointY="94.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_NhomDoiTuong" Width="1.5" PointX="7.5" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_NhomHangHoa" Width="1.5" PointX="9.75" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_NhomThe" Width="1.5" PointX="9.75" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_NoiDungQuanTam" Width="1.5" PointX="17.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_PhanLoaiHangHoaDichVu" Width="1.5" PointX="7.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_QuanHuyen" Width="1.5" PointX="6" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_QuocGia" Width="1.5" PointX="1.5" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_ThueSuat" Width="1.5" PointX="9.75" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_TichDiem" Width="1.5" PointX="17.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_TienTe" Width="1.5" PointX="1.5" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_TinhThanh" Width="1.5" PointX="3.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_TrangThai" Width="1.5" PointX="18.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_TyGia" Width="1.5" PointX="3.75" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_ViTri" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DM_VungMien" Width="1.5" PointX="1.5" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DoiTuong_DacDiem" Width="1.5" PointX="13.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.DonViQuiDoi" Width="1.5" PointX="14.25" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_Anh_QTSuaChua" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_ChietKhauSuaChua" Width="1.5" PointX="19.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_HangXe" Width="1.5" PointX="19.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_HinhThucSuaChua" Width="1.5" PointX="19.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_LoaiXe" Width="1.5" PointX="15.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_QuaTrinhSuaChua" Width="1.5" PointX="17.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_TinhTrangXe_QTSuaChua" Width="1.5" PointX="19.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_VatDungGiayTo_QTSuaChua" Width="1.5" PointX="20.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Gara_Xe" Width="1.5" PointX="21.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.GiaoCaLamViec" Width="1.5" PointX="21.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HangDoiTraLai" Width="1.5" PointX="17.25" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HangDoiTraLaiChiTiet" Width="1.5" PointX="19.5" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HangTraLaiNCCChiTiet" Width="1.5" PointX="16.5" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HangTraLaiNhaCungCap" Width="1.5" PointX="14.25" PointY="76.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonBan" Width="1.5" PointX="20.25" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonBan_ChietKhauThanhToan" Width="1.5" PointX="21.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonBanChiTiet" Width="1.5" PointX="22.5" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonBanLe" Width="1.5" PointX="14.25" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonBanLe_DacDiemKhachHang" Width="1.5" PointX="21.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonBanLeChiTiet" Width="1.5" PointX="16.5" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HoaDonDichVu" Width="1.5" PointX="21.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Hotel_CheckIn" Width="1.5" PointX="23.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Hotel_CheckIn_ChiTiet" Width="1.5" PointX="23.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Hotel_DatPhong" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Hotel_DatPhong_ChiTiet" Width="1.5" PointX="23.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Hotel_DonGiaPhong" Width="1.5" PointX="23.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Hotel_HoaDonSuDungDichVu" Width="1.5" PointX="23.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.HRS_DonGiaViTri" Width="1.5" PointX="23.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_Anh" Width="1.5" PointX="12" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_KiemKe" Width="1.5" PointX="17.25" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_KiemKeChiTiet" Width="1.5" PointX="19.5" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_NhapKho" Width="1.5" PointX="20.25" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_NhapKho_ChiTiet" Width="1.5" PointX="22.5" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_XuatKho" Width="1.5" PointX="20.25" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KH_XuatKho_ChiTiet" Width="1.5" PointX="22.5" PointY="52.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Kho_DonVi" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Kho_KhuyenMai" Width="1.5" PointX="25.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KhoanChiPhi_DoanhThu" Width="1.5" PointX="25.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KhoanThuChi" Width="1.5" PointX="20.75" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KhoanThuChi_ChiPhiDoanhThu" Width="1.5" PointX="25.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KhoaSoLieu" Width="1.5" PointX="25.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KhuVuc_DonVi" Width="1.5" PointX="25.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.KhuyenMaiTangKem" Width="1.5" PointX="25.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.LichHenKhachHang" Width="1.5" PointX="25.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.LichNhacBaoHanh_XeBan" Width="1.5" PointX="10.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.LichNhacBaoHanh_XeBan_ChiTiet" Width="1.5" PointX="5.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.LichNhacBaoHanh_XeSuaChua" Width="1.5" PointX="19.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.LichNhacBaoHanh_XeSuaChua_ChiTiet" Width="1.5" PointX="21.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.MaChungTu" Width="1.5" PointX="27.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.MoHinhKhuVuc" Width="1.5" PointX="27.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.MonAnChoThucHien" Width="1.5" PointX="27.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NguonKhachHang" Width="1.5" PointX="27.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NguyenLieu_ChungTuChiTiet" Width="1.5" PointX="27.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.Nhan_LichHenKhachHang" Width="1.5" PointX="16.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhanVien_LichHenKhachHang" Width="1.5" PointX="27.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhanVienThucHien" Width="1.5" PointX="14.25" PointY="49" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhanVienTuVan" Width="1.5" PointX="3.75" PointY="93.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhatKyBaoHanh_NhomHH_HangHoa" Width="1.5" PointX="27.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhatKyHoatDong_NhomHangHoa" Width="1.5" PointX="27.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhatKySuDung_PhieuThanhToan" Width="1.5" PointX="29.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhatKySuDungThe" Width="1.5" PointX="14.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhatKyThayDoiNhomKhachHang" Width="1.5" PointX="29.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhomDoiTuong_DonVi" Width="1.5" PointX="29.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NhomHangHoa_DonVi" Width="1.5" PointX="29.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_ChamCong_ChiTiet" Width="1.5" PointX="3.75" PointY="97.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_HoSoLuong" Width="1.5" PointX="29.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_HoSoLuongDoanhThu" Width="1.5" PointX="29.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_KyHieuChamCong" Width="1.5" PointX="29.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_LuongDoanhThu" Width="1.5" PointX="21.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_LuongDoanhThu_ChiTiet" Width="1.5" PointX="29.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_PhuCapNhanVien" Width="1.5" PointX="29.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.NS_QuaTrinhCongTac" Width="1.5" PointX="5.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhanHoiKhachHang" Width="1.5" PointX="8.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhanLoaiChamSocKhachHang" Width="1.5" PointX="16.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhanLoaiLichHen" Width="1.5" PointX="18.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhieuChi" Width="1.5" PointX="6.75" PointY="72" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhieuChiChiTiet" Width="1.5" PointX="23" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhieuThanhToan" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhieuThu" Width="1.5" PointX="3.75" PointY="73.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.PhieuThuChiTiet" Width="1.5" PointX="12" PointY="70.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.QuyenMacDinh" Width="1.5" PointX="11" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.SanPhamChinh" Width="1.5" PointX="31.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.SanPhamTangKem" Width="1.5" PointX="31.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.SoDuKhoiTao" Width="1.5" PointX="31.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.SoTichDiem" Width="1.5" PointX="31.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.SuDungDiemTich" Width="1.5" PointX="31.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_CauHinhPhanMem" Width="1.5" PointX="31.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_Company" Width="1.5" PointX="31.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_NguoiDung" Width="1.5" PointX="8.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_NguoiDungNhom" Width="1.5" PointX="14" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_NhatKyNguoiDung" Width="1.5" PointX="11" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_NhomNguoiDung" Width="1.5" PointX="11.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_PhimTat" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_Quyen" Width="1.5" PointX="11.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sys_QuyenNhom" Width="1.5" PointX="14" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.sysdiagram" Width="1.5" PointX="33.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TaiKhoanNhanTin" Width="1.5" PointX="11" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TaiLieu" Width="1.5" PointX="33.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TaiLieu_PhanLoai" Width="1.5" PointX="33.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TangGiaTriThe" Width="1.5" PointX="33.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.tblTinNhanSM" Width="1.5" PointX="33.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TheKhachHang" Width="1.5" PointX="12" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TheKhachHang_DonViSuDung" Width="1.5" PointX="20.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TheKhachHangChiTiet" Width="1.5" PointX="14.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TheoDoiLopHoc" Width="1.5" PointX="22.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TheoDoiLopHocChiTiet" Width="1.5" PointX="33.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.ThuDienTu" Width="1.5" PointX="24.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TinNhan" Width="1.5" PointX="12" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TongHopNhapXuat" Width="1.5" PointX="26.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TonKhoKhoiTao" Width="1.5" PointX="19.5" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TonQuyChiTiet_DonVi" Width="1.5" PointX="33.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TonQuyKhoiTao" Width="1.5" PointX="3.75" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TonToiThieu" Width="1.5" PointX="19.25" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.TuVanKhachHang" Width="1.5" PointX="28.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SSOFTLUCKY_BEAUTYModel.ViTriHangTrongKho" Width="1.5" PointX="17.25" PointY="71" IsExpanded="true" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_ChiTiet_BH_DonBanHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_HinhThucThanhToan" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_HinhThucVanChuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_LienHe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBan_BH_DonBanHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_ChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonBanHang_ChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_ChiTiet_BH_DonMuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_HinhThucThanhToan" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_HinhThucVanChuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_LienHe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_BH_DonMuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_ChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_ChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_DonMuaHang_ChiTiet_DM_ThueSuat" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_ChiTiet_BH_MuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_ChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_ChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_BH_MuaHang_ChiTiet_DM_ThueSuat" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_ChietKhauMacDinh_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_ChietKhauMacDinh_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_ChietKhauMacDinh_NhanVien_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_ChietKhauMacDinh_NhanVien_DM_NhomHangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_CongNoDauKi_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_ChiTiet_DieuChuyenKho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_ChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_ChiTiet_DM_Kho1" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DieuChuyenKho_ChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DinhLuongDichVu_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NS_QuaTrinhCongTac_DM_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_DoiTuong_DM_NhomDoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_HangHoa_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_LienHe_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLai_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNhaCungCap_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBan_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLe_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_Anh_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuChiChiTiet_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuThuChiTiet_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TheKhachHang_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TinNhan_DM_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_GiaBan_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_KhuyenMai_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLai_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNhaCungCap_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBan_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLe_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKe_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NS_QuaTrinhCongTac_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuChi_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuThu_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonQuyKhoiTao_DM_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_HangHoa_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DonViQuiDoi_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLaiChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNCCChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLeChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKeChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_ChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_ChiTiet_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonKhoKhoiTao_DM_DonViTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_GiaBan_ChiTiet_DM_GiaBan" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_GiaBan_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_GiaBan_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_HangHoa_DM_NhomHangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_HangHoa_DM_QuocGia" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_HangHoa_DM_ThueSuat" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_HangHoa_DM_ThueSuat1" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_LoHang_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_MaVach_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DonViQuiDoi_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLaiChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNCCChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLeChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKeChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_ChiTiet_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NhanVienThucHien_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonKhoKhoiTao_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonToiThieu_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_ViTriHangTrongKho_DM_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLaiChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNCCChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLeChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKeChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_ChiTiet_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonKhoKhoiTao_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonToiThieu_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_ViTriHangTrongKho_DM_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_ViTri_DM_KhuVuc" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_KhuyenMai_ChiTiet_DM_KhuyenMai" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNhaCungCap_DM_LienHe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBan_LienHe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLaiChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNCCChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLeChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKeChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_ChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_ChiTiet_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonKhoKhoiTao_DM_LoHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLai_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNhaCungCap_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBan_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLe_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKe_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NhanVienThucHien_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NhanVienTuVan_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NS_ChamCong_ChiTiet_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NS_QuaTrinhCongTac_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuChi_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuThu_DM_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TheKhachHang_DM_NhomThe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_QuanHuyen_DM_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_TienTe_DM_QuocGia" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_TinhThanh_DM_QuocGia" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLaiChiTiet_DM_ThueSuat" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNCCChiTiet_DM_ThueSuat" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_TyGia_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLai_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNhaCungCap_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBan_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLe_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuChi_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuThu_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TheKhachHang_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TonQuyKhoiTao_DM_TienTe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_DM_TinhThanh_DM_VungMien" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangDoiTraLaiChiTiet_HangDoiTraLai" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HangTraLaiNCCChiTiet_HangTraLaiNhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanChiTiet_HoaDonBan" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_HoaDonBanLeChiTiet_HoaDonBanLe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_KiemKeChiTiet_KH_KiemKe" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_NhapKho_ChiTiet_KH_NhapKho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_KH_XuatKho_ChiTiet_KH_XuatKho" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuChiChiTiet_KhoanThuChi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuThuChiTiet_KhoanThuChi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_NhatKySuDungThe_TheKhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuChiChiTiet_PhieuChi" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_PhieuThuChiTiet_PhieuThu" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_QuyenMacDinh_sys_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_sys_NguoiDungNhom_sys_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_sys_NhatKyNguoiDung_sys_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TaiKhoanNhanTin_TaiKhoanNhanTin" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TinNhan_sys_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_sys_NguoiDungNhom_sys_NhomNguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_sys_QuyenNhom_sys_NhomNguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_sys_QuyenNhom_sys_Quyen" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TheKhachHangChiTiet_TheKhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="SSOFTLUCKY_BEAUTYModel.FK_TinNhan_TinNhan" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

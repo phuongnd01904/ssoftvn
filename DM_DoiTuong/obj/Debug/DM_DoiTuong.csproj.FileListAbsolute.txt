@@ -1,0 +1,10 @@
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\DM_DoiTuong.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\DM_DoiTuong.pdb
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\obj\Debug\DM_DoiTuong.csprojResolveAssemblyReference.cache
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\obj\Debug\DM_DoiTuong.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\obj\Debug\DM_DoiTuong.pdb
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\EntityFramework.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\Model.dll
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\EntityFramework.xml
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\Model.pdb
+c:\users\phuongnd\documents\visual studio 2012\Projects\ssoftvn2017\DM_DoiTuong\bin\Debug\DM_DoiTuong.dll.config

@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DE0A0A7-6C8F-4EB7-8090-E205D0B30431}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoCaoQuyCa.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BH_DonBanHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BH_DonBanHang_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BH_DonMuaHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BH_DonMuaHang_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BH_MuaHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BH_MuaHang_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CauHinhBangLuong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CauHinhHomThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CHBangLuongTheoMucDoanhThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CHGiamTruBangLuong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChietKhauMacDinh_NhanVien.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CongDoan_DichVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CongNoDauKi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Conversation.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachThi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachThi_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DieuChuyenKho.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DieuChuyenKho_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DieuKienChuyenNhom.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DinhLuongDichVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DinhMucHangHoaXuatKhoChoDichVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_ChucVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_DacDiemKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_DoiTuong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_DonVi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_DonViTinh.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_GiaBan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_GiaBan_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_HangHoa.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_HinhThucThanhToan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_HinhThucVanChuyen.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_Kho.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_KhoanPhuCap.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_KhuVuc.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_KhuyenMai.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_KhuyenMai_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LienHe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LoaiChungTu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LoaiGiaPhong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LoaiNhapXuat.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LoaiPhieuThanhToan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LoaiPhong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LoHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LopHoc.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_LyDoHuyLichHen.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_MaVach.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_MayChamCong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_NganHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_NhanVien.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_NhomDoiTuong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_NhomHangHoa.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_NhomThe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_NoiDungQuanTam.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_PhanLoaiHangHoaDichVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_QuanHuyen.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_QuocGia.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_ThueSuat.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_TichDiem.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_TienTe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_TinhThanh.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_TrangThai.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_TyGia.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_ViTri.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DM_VungMien.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoiTuong_DacDiem.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DonViQuiDoi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_Anh_QTSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_ChietKhauSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_HangXe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_HinhThucSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_LoaiXe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_QuaTrinhSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_TinhTrangXe_QTSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_VatDungGiayTo_QTSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gara_Xe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GiaoCaLamViec.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HangDoiTraLai.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HangDoiTraLaiChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HangTraLaiNCCChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HangTraLaiNhaCungCap.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonBan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonBanChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonBanLe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonBanLeChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonBanLe_DacDiemKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonBan_ChietKhauThanhToan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonDichVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_CheckIn.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_CheckIn_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_DatPhong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_DatPhong_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_DonGiaPhong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel_HoaDonSuDungDichVu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HRS_DonGiaViTri.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhoanChiPhi_DoanhThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhoanThuChi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhoanThuChi_ChiPhiDoanhThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhoaSoLieu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kho_DonVi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kho_KhuyenMai.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhuVuc_DonVi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhuyenMaiTangKem.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_Anh.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_KiemKe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_KiemKeChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_NhapKho.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_NhapKho_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_XuatKho.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KH_XuatKho_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichHenKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichNhacBaoHanh_XeBan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichNhacBaoHanh_XeBan_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichNhacBaoHanh_XeSuaChua.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichNhacBaoHanh_XeSuaChua_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MaChungTu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MoHinhKhuVuc.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonAnChoThucHien.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NguonKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenLieu_ChungTuChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVienThucHien.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVienTuVan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien_LichHenKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nhan_LichHenKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhatKyBaoHanh_NhomHH_HangHoa.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhatKyHoatDong_NhomHangHoa.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhatKySuDungThe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhatKySuDung_PhieuThanhToan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhatKyThayDoiNhomKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhomDoiTuong_DonVi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhomHangHoa_DonVi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_ChamCong_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_HoSoLuong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_HoSoLuongDoanhThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_KyHieuChamCong.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_LuongDoanhThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_LuongDoanhThu_ChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_PhuCapNhanVien.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NS_QuaTrinhCongTac.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhanHoiKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhanLoaiChamSocKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhanLoaiLichHen.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuChi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuChiChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuThanhToan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuThu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuThuChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuyenMacDinh.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SanPhamChinh.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SanPhamTangKem.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SoDuKhoiTao.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SoTichDiem.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ssoftvn.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ssoftvn.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ssoftvn.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ssoftvn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ssoftvn.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="SuDungDiemTich.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_CauHinhPhanMem.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_Company.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_NguoiDung.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_NguoiDungNhom.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_NhatKyNguoiDung.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_NhomNguoiDung.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_PhimTat.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_Quyen.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_QuyenNhom.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoanNhanTin.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiLieu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiLieu_PhanLoai.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TangGiaTriThe.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTinNhanSM.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TheKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TheKhachHangChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TheKhachHang_DonViSuDung.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TheoDoiLopHoc.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TheoDoiLopHocChiTiet.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ThuDienTu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TinNhan.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TongHopNhapXuat.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TonKhoKhoiTao.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TonQuyChiTiet_DonVi.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TonQuyKhoiTao.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TonToiThieu.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TuVanKhachHang.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViTriHangTrongKho.cs">
+      <DependentUpon>ssoftvn.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ssoftvn.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ssoftvn.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="ssoftvn.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ssoftvn.edmx</DependentUpon>
+      <LastGenOutput>ssoftvn.Context.cs</LastGenOutput>
+    </None>
+    <None Include="ssoftvn.edmx.diagram">
+      <DependentUpon>ssoftvn.edmx</DependentUpon>
+    </None>
+    <None Include="ssoftvn.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ssoftvn.edmx</DependentUpon>
+      <LastGenOutput>ssoftvn.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

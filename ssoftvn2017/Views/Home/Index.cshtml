@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<form id="frmDMDoiTuong">
+    <input type="text" id="txtMaDoiTuong" name="txtMaDoiTuong" placeholder="Mã đối tượng" />
+    <input type="text" id="txtTenDoiTuong" name="txtTenDoiTuong" placeholder="Tên đối tượng" />
+    <button type="button" id="btnLuu" onclick="luudoituong()">Lưu</button>
+</form>
+<script>
+    function luudoituong()
+    {
+        var form = $("#frmDMDoiTuong").serialize();
+        $.ajax({
+            type: "POST",
+            url: "/home/themmoidoituong",
+            data: form,
+            success: function (result)
+            {
+                alert(result);
+            }
+        });
+    }
+</script>
